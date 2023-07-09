@@ -157,3 +157,25 @@ li {
         transform: scale(1.1);
     }
 }
+
+/* Blockchain Section */
+.blockchain {
+    padding: 20px;
+    height: 350px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Rhodium Libre", sans-serif;
+}
+
+section.blockchain>div {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Rhodium Libre", sans-serif;
+}
+
+.blockchain ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
