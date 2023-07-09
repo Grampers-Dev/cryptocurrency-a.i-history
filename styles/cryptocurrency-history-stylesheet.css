@@ -146,3 +146,14 @@ li {
 #ai-info p {
     color: #333;
 }
+
+/* Keyframe Animation */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
