@@ -79,3 +79,29 @@ h1 {
     text-shadow: 2px 2px 2px coral;
     color: white;
 }
+
+/* Paragraph Styles */
+p {
+    font-family: "Rhodium Libre", sans-serif;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+/* Anchor Styles */
+a {
+    color: white;
+    font-family: "Rhodium Libre", sans-serif;
+    padding: 0 auto;
+    margin: 5px;
+}
+
+/* Section Heading Styles */
+h2 {
+    color: white;
+}
+
+/* List Item Styles */
+li {
+    color: white;
+}
