@@ -179,3 +179,11 @@ section.blockchain>div {
     list-style-type: none;
     padding-left: 0px;
 }
+
+/* Navigation Section */
+#nav li {
+    border: 3px solid black;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    box-shadow: 5px 5px 10px coral;
+}
