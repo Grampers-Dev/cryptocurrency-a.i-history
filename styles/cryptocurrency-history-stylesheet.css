@@ -247,3 +247,10 @@ ul li {
     text-align: center;
     width: 120px;
 }
+
+/* Blockchain List Styles */
+.blockchain ul li {
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+}
