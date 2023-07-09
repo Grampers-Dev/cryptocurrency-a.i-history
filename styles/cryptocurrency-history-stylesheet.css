@@ -7,3 +7,65 @@
     padding: 0;
     border: none;
 }
+
+/* Header Section */
+#header {
+    background: linear-gradient(to right, black, grey);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+#header h1 {
+    margin-right: 250px;
+    font-family: "Rhodium Libre", sans-serif;
+    color: white;
+    text-shadow: 15%;
+}
+
+#header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#header ul li a {
+    color: white;
+    font-family: "Rhodium Libre", sans-serif;
+    padding: 5px auto;
+    margin: 10px;
+    transition: color 0.3s ease;
+}
+
+#header ul li a:hover {
+    color: coral;
+}
+
+#header li:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 10px 80px coral;
+}
+
+#header ul li {
+    margin-right: 20px;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header.grid_12 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
