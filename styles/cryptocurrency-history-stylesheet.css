@@ -234,3 +234,16 @@ section.blockchain>div {
 .development .development-indicator {
     display: block;
 }
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
