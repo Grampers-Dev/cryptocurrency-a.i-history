@@ -384,6 +384,34 @@ form input[type="submit"] {
     z-index: 2;
 }
 
+/* Social Networks Section */
+.social-networks {
+    text-align: center;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.social-networks>li {
+    display: inline-block;
+    margin: 0 5px;
+    color: whitesmoke;
+}
+
+.social-networks i {
+    font-size: 34px;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.footer a[href] {
+    color: white;
+}
+
+/* Background Styles */
+body {
+    background: linear-gradient(to bottom, black, darkgray);
+}
+
 #contact-information {
     background-color: rgba(0, 0, 0, 0);
     height: 160px;
