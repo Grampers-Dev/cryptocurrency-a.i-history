@@ -373,7 +373,7 @@ form input[type="submit"] {
 /* Footer Section */
 .footer {
     background: linear-gradient(to right, black, grey);
-    margin: 90px 0 0 1;
+    margin: 90px 0 0 1px;
     padding-top: 30px;
     color: white;
     text-align: center;
