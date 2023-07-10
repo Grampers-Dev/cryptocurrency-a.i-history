@@ -460,3 +460,89 @@ body {
     max-width: 80%;
     margin: 0 auto;
 }
+
+/* Media Queries */
+/* For screens smaller than 768px (Mobile) */
+@media (max-width: 767px) {
+    #header h1 {
+        margin-right: 20px;
+    }
+
+    #header ul li {
+        margin-right: 10px;
+    }
+
+    #hero-image img {
+        height: 300px;
+    }
+
+    #ai-info {
+        bottom: 150px;
+        right: 50px;
+    }
+
+    #ai-info p {
+        bottom: 200px;
+        right: 75px;
+    }
+
+    .change h1 {
+        margin-left: 50px;
+    }
+
+    #custom-contact {
+        left: 50px;
+        right: 50px;
+        width: auto;
+        margin-right: 0;
+    }
+
+    .blockchain {
+        height: 250px;
+    }
+
+    .timeline {
+        margin: 50px auto;
+        transform: scale(1);
+    }
+
+    #header.grid_12 {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    #nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav li {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        margin-top: 40px;
+        padding-top: 20px;
+    }
+
+    #aichatbot {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #aichatbot h1#pahsa.i-section {
+        margin-bottom: 10px;
+    }
+
+    #aichatbot .circle {
+        margin-bottom: 20px;
+    }
+
+    #aichatbot .change h1 {
+        margin-left: 20px;
+    }
+
+    #aichatbot #chatbox {
+        margin-top: 20px;
+    }
+}
