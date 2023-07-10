@@ -340,6 +340,35 @@ ul li {
     margin: 40px;
 }
 
+#custom-contact {
+    position: fixed;
+    bottom: 200px;
+    left: 900px;
+    width: 250px;
+    margin-right: 400px;
+    box-shadow: 5px 5px 40px #b42909;
+    background-color: rgba(89, 38, 178, 0.7);
+    padding: 30px;
+    border: 3px solid black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+/* Form Styles */
+form label,
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="submit"] {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+#signup-btn {
+    color: black;
+}
+
 #contact-information {
     background-color: rgba(0, 0, 0, 0);
     height: 160px;
