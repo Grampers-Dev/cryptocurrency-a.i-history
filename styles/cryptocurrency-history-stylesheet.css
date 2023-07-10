@@ -312,3 +312,79 @@ ul li {
 .timeline-content {
     width: 100%;
 }
+
+/* Contact Section */
+.contact {
+    display: table-cell;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    margin-bottom: 80px;
+    max-width: max-content;
+}
+
+.contact h2 p {
+    text-align: center;
+    font-family: "Rhodium Libre", sans-serif;
+}
+
+.contact {
+    background-image: url("ivana-cajina-asuyh-_ZX54-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    overflow: visible;
+    backface-visibility: hidden;
+    margin: 40px;
+}
+
+#contact-information {
+    background-color: rgba(0, 0, 0, 0);
+    height: 160px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    margin-top: 10px;
+    box-shadow: 5px 10px 10px blue;
+    border-radius: 50px;
+    color: white;
+    margin-left: 90px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+#contact-information {
+    box-shadow: 5px 10px 20px blue;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#contact-information::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+#contact-information h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#contact-information a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-text {
+    max-width: 80%;
+    margin: 0 auto;
+}
