@@ -185,7 +185,7 @@ section.blockchain>div {
 #nav li {
     border: 3px solid black;
     border-radius: 10px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     box-shadow: 5px 5px 10px coral;
 }
 
@@ -320,7 +320,7 @@ ul li {
     justify-content: center;
     box-sizing: border-box;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     max-width: max-content;
 }
 
@@ -339,6 +339,7 @@ ul li {
     overflow: visible;
     backface-visibility: hidden;
     margin: 40px;
+    top: 90px;
 }
 
 #custom-contact {
@@ -374,7 +375,8 @@ form input[type="submit"] {
 .footer {
     background: linear-gradient(to right, black, grey);
     margin: 90px 0 0 1px;
-    padding-top: 30px;
+    padding-top: 5px;
+    height: 140px;
     color: white;
     text-align: center;
     font-family: "Rhodium Libre", sans-serif;
