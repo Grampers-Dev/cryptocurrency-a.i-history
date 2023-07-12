@@ -521,6 +521,7 @@ body {
     .footer {
         margin-top: 80px;
         padding-top: 20px;
+        height: 160px;
     }
 
     #aichatbot {
