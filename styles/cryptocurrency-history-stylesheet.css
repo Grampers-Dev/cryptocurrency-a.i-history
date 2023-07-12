@@ -130,7 +130,7 @@ li {
     position: absolute;
     bottom: 300px;
     right: 100px;
-    box-shadow: 5px 5px 20px blue;
+    box-shadow: 5px 5px 20px grey;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     border: 3px solid black;
@@ -231,7 +231,7 @@ ul li {
 .circle .icon {
     font-size: 40px;
     line-height: 60px;
-    color: blue;
+    color: slategray;
     box-shadow: 5px 10px 90px white;
 }
 
@@ -252,8 +252,8 @@ ul li {
 .timeline-content {
     display: table-cell;
     padding: 20px;
-    border: 2px solid blue;
-    box-shadow: 5px 5px 10px blue;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px grey;
     border-radius: 20px;
     margin-bottom: 20px;
 }
@@ -374,7 +374,7 @@ body {
     margin-bottom: 50px;
     margin-right: 30px;
     margin-top: 10px;
-    box-shadow: 5px 10px 10px blue;
+    box-shadow: 5px 10px 10px grey;
     border-radius: 50px;
     color: white;
     margin-left: 90px;
@@ -384,7 +384,7 @@ body {
 }
 
 #contact-information {
-    box-shadow: 5px 10px 20px blue;
+    box-shadow: 5px 10px 20px grey;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
