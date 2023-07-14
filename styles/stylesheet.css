@@ -537,17 +537,17 @@ body {
 
     .footer {
         margin-top: 80px;
-        padding-top: 20px;
         height: 120px;
     }
 
 
 }
 
+/* For screens at 768px wide */
 @media (min-width: 768px) {
     #header h1 {
-        margin-right: 60px;
-        font-size: 14px;
+        margin-right: 40px;
+        font-size: 19px;
     }
 
     #header ul li {
@@ -627,7 +627,7 @@ body {
     }
 
     #header.grid_12 {
-        font-size: 7px;
+        font-size: 12px;
         padding-top: 10px;
     }
 
@@ -648,6 +648,116 @@ body {
         margin-top: 80px;
         padding-top: 20px;
         height: 120px;
+    }
+
+
+}
+
+/* for screens larger then 1024px wide */
+@media (min-width: 1024px) {
+    #header h1 {
+        margin-right: 150px;
+        font-size: 30px;
+    }
+
+    #header ul li {
+        margin-right: 10px;
+    }
+
+    #hero-image img {
+        height: 218px;
+    }
+
+    #ai-info {
+        bottom: 300px;
+        right: 20px;
+        width: 320px;
+        font-size: 7px;
+        float: inherit;
+    }
+
+
+    #ai-info p {
+        bottom: 200px;
+        right: 75px;
+    }
+
+    #custom-contact {
+        left: 50px;
+        right: 50px;
+        width: auto;
+        margin-right: 0;
+    }
+
+    .blockchain {
+        margin-bottom: 10px;
+        height: 290px;
+    }
+
+    .blockchain2 {
+        padding-top: 140px;
+        padding-bottom: 120px;
+        margin-bottom: 10px;
+    }
+
+    .blockchain ul li {
+        height: 50px;
+        width: 260px;
+        display: table-cell;
+        font-size: inherit;
+    }
+
+    .blockchain2 ul li {
+        height: 50px;
+        width: 177px;
+        display: table-cell;
+        font-size: inherit;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .contact-information::before {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .timeline {
+        margin: 50px auto;
+        transform: scale(1);
+    }
+
+    #header.grid_12 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    #nav {
+        flex-direction: inherit;
+        align-items: flex-start;
+    }
+
+    #nav li {
+        margin-bottom: 10px;
+    }
+
+    .social-networks {
+        display: block;
+    }
+
+    .footer {
+        margin-top: 90px;
+        height: 110px;
     }
 
 
