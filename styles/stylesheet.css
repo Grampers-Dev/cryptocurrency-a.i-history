@@ -435,7 +435,7 @@ body {
 }
 
 /* For screens smaller than 320px (Mobile) */
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 420px) {
     #header h1 {
         margin-right: 20px;
         font-size: 14px;
@@ -544,7 +544,7 @@ body {
 }
 
 /* For screens at 768px wide */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     #header h1 {
         margin-right: 40px;
         font-size: 19px;
@@ -665,7 +665,7 @@ body {
     }
 
     #hero-image img {
-        height: 218px;
+        height: 350px;
     }
 
     #ai-info {
@@ -702,14 +702,14 @@ body {
 
     .blockchain ul li {
         height: 50px;
-        width: 260px;
+        width: 360px;
         display: table-cell;
         font-size: inherit;
     }
 
     .blockchain2 ul li {
         height: 50px;
-        width: 177px;
+        width: 360px;
         display: table-cell;
         font-size: inherit;
     }
@@ -718,6 +718,10 @@ body {
         width: 100px;
         height: 100px;
         border-radius: 50%;
+    }
+
+    .contact {
+        width: 1500px;
     }
 
     .contact-information::before {
@@ -757,7 +761,7 @@ body {
 
     .footer {
         margin-top: 90px;
-        height: 110px;
+        height: 130px;
     }
 
 
