@@ -665,7 +665,11 @@ body {
     }
 
     #hero-image img {
-        height: 350px;
+        height: 440px;
+    }
+
+    #hero-image-signup img {
+        height: 440px;
     }
 
     #ai-info {
@@ -683,10 +687,16 @@ body {
     }
 
     #custom-contact {
-        left: 50px;
+        left: 550px;
+        display: inline-grid;
         right: 50px;
-        width: auto;
+        width: 250px;
         margin-right: 0;
+    }
+
+    #signup-btn {
+        color: black;
+        width: 70px;
     }
 
     .blockchain {
