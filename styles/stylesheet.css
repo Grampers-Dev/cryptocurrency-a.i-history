@@ -267,12 +267,23 @@ ul li {
 
 .timeline-date,
 .timeline-content {
-    display: table-cell;
+    display: inline-grid;
     padding: 20px;
     border: 2px solid black;
     box-shadow: 5px 5px 10px grey;
     border-radius: 20px;
     margin-bottom: 20px;
+}
+
+/* Quiz on bitcoin */
+.quiz-section {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 10px coral;
+    width: 300px;
+    display: block;
+    margin-left: 450px;
+    text-align: center;
 }
 
 .timeline-date {
@@ -423,10 +434,9 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-#contact-information a {
-    color: white;
+.contact-section a:hover {
+    color: orange;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .contact-text {
@@ -656,7 +666,7 @@ body {
 /* for screens larger then 1024px wide */
 @media (min-width: 1024px) {
     #header h1 {
-        margin-right: 150px;
+        margin-right: 600px;
         font-size: 30px;
     }
 
@@ -687,17 +697,35 @@ body {
     }
 
     #custom-contact {
-        left: 550px;
+        left: 500px;
         display: inline-grid;
-        right: 50px;
-        width: 250px;
-        margin-right: 0;
+        right: 60px;
+        width: 650px;
+        bottom: 200px;
     }
 
     #signup-btn {
-        color: black;
+        background-color: orange;
+        color: white;
         width: 70px;
     }
+
+    #signup-section {
+        padding: 30px;
+        display: grid;
+        text-align: initial;
+    }
+
+    form label,
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"],
+    form input[type="submit"] {
+        width: 100px;
+        color: orange;
+        font-size: x-large;
+    }
+
 
     .blockchain {
         margin-bottom: 10px;
@@ -740,10 +768,12 @@ body {
 
     h2 {
         font-size: 25px;
+        letter-spacing: 3px;
     }
 
     p {
-        font-size: 10px;
+        font-size: 15px;
+        letter-spacing: 1px;
     }
 
     .timeline {
@@ -769,7 +799,7 @@ body {
         display: block;
     }
 
-    .footer {
+    .signup-page-footer {
         margin-top: 90px;
         height: 130px;
     }

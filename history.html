@@ -147,6 +147,24 @@
         </li>
     </ul>
 
+    <div class="quiz-section">
+        <h2>Quiz <i class="fal fa-question-circle"></i></h2>
+        <form id="quiz-form" action="/submit-quiz" method="POST">
+            <p>What is the maximum supply of Bitcoin?</p>
+            <div class="radio-buttons">
+                <input type="radio" id="option1" name="answer" value="A">
+                <label for="option1">A. 21 million</label><br>
+                <input type="radio" id="option2" name="answer" value="B">
+                <label for="option2">B. 10 million</label><br>
+                <input type="radio" id="option3" name="answer" value="C">
+                <label for="option3">C. 100 million</label><br>
+                <input type="radio" id="option4" name="answer" value="D">
+                <label for="option4">D. 1 billion</label><br>
+            </div>
+            <input type="submit" value="Submit" id="quiz-submit-btn">
+        </form>
+    </div>
+
     <div class="footer">
         <ul class="social-networks">
             <li>
