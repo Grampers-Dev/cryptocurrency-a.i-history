@@ -107,6 +107,10 @@ li {
     color: white;
 }
 
+i {
+    color: whitesmoke
+}
+
 /* Hero Image Section */
 #hero-image {
     position: relative;
@@ -282,7 +286,7 @@ ul li {
     box-shadow: 10px 10px 20px 10px coral;
     width: 300px;
     display: block;
-    margin-left: 450px;
+    margin-left: 600px;
     text-align: center;
 }
 
