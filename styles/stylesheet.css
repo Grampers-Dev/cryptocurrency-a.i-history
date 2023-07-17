@@ -108,7 +108,7 @@ li {
 }
 
 i {
-    color: whitesmoke
+    color: black
 }
 
 /* Hero Image Section */
@@ -640,14 +640,20 @@ body {
     }
 
     p {
-        font-size: 8px;
+        font-size: 15px;
+    }
+
+    form#signup-section {
+        display: inline-grid;
+        width: 100px;
+        margin-left: 160px;
     }
 
     #signup-btn {
         background-color: orange;
         color: white;
         width: 100px;
-        margin-left: 220px;
+        margin-left: 30px;
     }
 
     .timeline {
@@ -743,7 +749,7 @@ body {
         width: 150px;
         color: orange;
         font-size: smaller;
-        margin-left: 220px;
+        margin-left: 30px;
     }
 
 
