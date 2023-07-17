@@ -328,14 +328,14 @@ ul li {
 }
 
 #custom-contact {
-    position: fixed;
-    bottom: 200px;
+    bottom: 400px;
     left: 900px;
-    width: 250px;
-    margin-right: 400px;
+    width: 350px;
+    margin-bottom: 350PX;
+    margin-top: 150px;
     box-shadow: 5px 5px 40px #b42909;
     background-color: rgba(89, 38, 178, 0.7);
-    padding: 30px;
+    padding-top: 30px;
     border: 3px solid black;
     border-radius: 30px;
     text-align: center;
@@ -670,8 +670,8 @@ body {
 /* for screens larger then 1024px wide */
 @media (min-width: 1024px) {
     #header h1 {
-        margin-right: 600px;
-        font-size: 30px;
+        margin-right: 300px;
+        font-size: 20px;
     }
 
     #header ul li {
@@ -705,19 +705,19 @@ body {
         display: inline-grid;
         right: 60px;
         width: 650px;
-        bottom: 200px;
+        margin-left: 300px;
+        margin-bottom: 100px;
     }
 
     #signup-btn {
         background-color: orange;
         color: white;
-        width: 70px;
+        width: 150px;
     }
 
     #signup-section {
         padding: 30px;
         display: grid;
-        text-align: initial;
     }
 
     form label,
@@ -725,9 +725,10 @@ body {
     form input[type="email"],
     form input[type="tel"],
     form input[type="submit"] {
-        width: 100px;
+        width: 150px;
         color: orange;
-        font-size: x-large;
+        font-size: smaller;
+        margin-left: 220px;
     }
 
 
@@ -776,7 +777,7 @@ body {
     }
 
     p {
-        font-size: 15px;
+        font-size: 10px;
         letter-spacing: 1px;
     }
 
@@ -802,11 +803,5 @@ body {
     .social-networks {
         display: block;
     }
-
-    .signup-page-footer {
-        margin-top: 90px;
-        height: 130px;
-    }
-
 
 }
