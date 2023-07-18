@@ -359,7 +359,6 @@ form input[type="submit"] {
 /* Footer Section */
 .footer {
     background: linear-gradient(to right, black, grey);
-    margin: 90px 0 0 1px;
     padding-top: 5px;
     height: 140px;
     color: white;
@@ -594,10 +593,10 @@ body {
 
     #custom-contact {
         left: 500px;
-        display: inline-grid;
+        display: block;
         right: 60px;
-        width: 650px;
         margin-left: 100px;
+        margin-right: 00px;
         margin-bottom: 100px;
     }
 
@@ -645,8 +644,6 @@ body {
 
     form#signup-section {
         display: inline-grid;
-        width: 100px;
-        margin-left: 250px;
     }
 
     #signup-btn {
@@ -681,17 +678,15 @@ body {
 
     .footer {
         margin-top: 80px;
-        padding-top: 20px;
-        height: 120px;
+        padding-top: 100px;
     }
-
 
 }
 
 /* for screens larger then 1024px wide */
 @media (min-width: 1024px) {
     #header h1 {
-        margin-right: 300px;
+        margin-right: 590px;
         font-size: 20px;
     }
 
@@ -733,12 +728,13 @@ body {
     #signup-btn {
         background-color: orange;
         color: white;
-        width: 150px;
+        width: 180px;
     }
 
     #signup-section {
         padding: 30px;
         display: grid;
+        margin-left: 180px;
     }
 
     form label,
@@ -746,8 +742,8 @@ body {
     form input[type="email"],
     form input[type="tel"],
     form input[type="submit"] {
-        width: 150px;
-        color: orange;
+        width: 180px;
+        color: black;
         font-size: smaller;
         margin-left: 30px;
     }
@@ -798,7 +794,7 @@ body {
     }
 
     p {
-        font-size: 10px;
+        font-size: 12px;
         letter-spacing: 1px;
     }
 
