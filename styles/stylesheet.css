@@ -646,7 +646,7 @@ body {
     form#signup-section {
         display: inline-grid;
         width: 100px;
-        margin-left: 160px;
+        margin-left: 250px;
     }
 
     #signup-btn {
