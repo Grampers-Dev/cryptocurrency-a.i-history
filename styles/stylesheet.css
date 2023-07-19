@@ -541,6 +541,10 @@ body {
         transform: scale(1);
     }
 
+    .quiz-section {
+        margin-left: 30px;
+    }
+
     #header.grid_12 {
         font-size: 7px;
         padding-top: 10px;
@@ -562,6 +566,7 @@ body {
     .footer {
         margin-top: 80px;
         height: 120px;
+        width: 365px;
     }
 
 
@@ -639,6 +644,10 @@ body {
         font-size: 10px;
     }
 
+    .quiz-section {
+        margin-left: 250px;
+    }
+
     h2 {
         font-size: 20px;
     }
@@ -661,6 +670,7 @@ body {
     .timeline {
         margin: 50px auto;
         transform: scale(1);
+        width: 400px;
     }
 
     #header.grid_12 {
@@ -679,6 +689,10 @@ body {
 
     .social-networks {
         display: block;
+    }
+
+    .footer {
+        margin-top: 50px;
     }
 
 }
@@ -787,6 +801,10 @@ body {
 
     .contact-information::before {
         font-size: 10px;
+    }
+
+    .quiz-section {
+        margin-left: 350px;
     }
 
     h2 {
