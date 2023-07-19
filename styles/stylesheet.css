@@ -465,7 +465,6 @@ body {
     #ai-info {
         bottom: 300px;
         right: 20px;
-        width: 200px;
         font-size: 7px;
         float: left;
     }
@@ -481,6 +480,12 @@ body {
         right: 50px;
         width: 250px;
         margin-left: 30px;
+    }
+
+    #contact-information {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 190px;
     }
 
     .blockchain {
@@ -580,7 +585,6 @@ body {
     #ai-info {
         bottom: 300px;
         right: 20px;
-        width: 200px;
         font-size: 7px;
         float: inherit;
     }
@@ -595,6 +599,7 @@ body {
         left: 500px;
         display: block;
         right: 60px;
+        height: 180px;
         margin-left: 100px;
         margin-right: 00px;
         margin-bottom: 100px;
@@ -676,17 +681,12 @@ body {
         display: block;
     }
 
-    .footer {
-        margin-top: 80px;
-        padding-top: 100px;
-    }
-
 }
 
 /* for screens larger then 1024px wide */
 @media (min-width: 1024px) {
     #header h1 {
-        margin-right: 590px;
+        margin-right: 300px;
         font-size: 20px;
     }
 
@@ -721,6 +721,7 @@ body {
         display: inline-grid;
         right: 60px;
         width: 650px;
+        height: 160px;
         margin-left: 300px;
         margin-bottom: 100px;
     }
@@ -821,4 +822,11 @@ body {
         display: block;
     }
 
+}
+
+/* For screen sizes up too 1440px */
+@media (max-width: 1440px) {
+    #contact-information {
+        margin-bottom: 150px;
+    }
 }
