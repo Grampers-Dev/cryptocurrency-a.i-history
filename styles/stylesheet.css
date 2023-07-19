@@ -364,7 +364,6 @@ form input[type="submit"] {
     color: white;
     text-align: center;
     font-family: "Rhodium Libre", sans-serif;
-    position: sticky;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -526,6 +525,7 @@ body {
         color: coral;
         width: 60px;
         text-align: center;
+        margin-left: 50px;
     }
 
     h2 {
@@ -542,7 +542,11 @@ body {
     }
 
     .quiz-section {
-        margin-left: 30px;
+        margin-left: 60px;
+    }
+
+    form#signup-section {
+        display: inline-grid;
     }
 
     #header.grid_12 {
@@ -566,14 +570,14 @@ body {
     .footer {
         margin-top: 80px;
         height: 120px;
-        width: 365px;
+        width: 465px;
     }
 
 
 }
 
 /* For screens at 768px wide */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
     #header h1 {
         margin-right: 40px;
         font-size: 19px;
@@ -604,7 +608,7 @@ body {
         left: 500px;
         display: block;
         right: 60px;
-        height: 180px;
+        height: 380px;
         margin-left: 100px;
         margin-right: 00px;
         margin-bottom: 100px;
@@ -700,7 +704,7 @@ body {
 /* for screens larger then 1024px wide */
 @media (min-width: 1024px) {
     #header h1 {
-        margin-right: 300px;
+        margin-right: 600px;
         font-size: 20px;
     }
 
@@ -735,8 +739,8 @@ body {
         display: inline-grid;
         right: 60px;
         width: 650px;
-        height: 160px;
-        margin-left: 300px;
+        height: 460px;
+        margin-left: 400px;
         margin-bottom: 100px;
     }
 
@@ -758,8 +762,8 @@ body {
     form input[type="tel"],
     form input[type="submit"] {
         width: 180px;
-        color: black;
-        font-size: smaller;
+        color: white;
+        font-size: larger;
         margin-left: 30px;
     }
 
@@ -813,7 +817,7 @@ body {
     }
 
     p {
-        font-size: 12px;
+        font-size: 16px;
         letter-spacing: 1px;
     }
 
@@ -840,11 +844,19 @@ body {
         display: block;
     }
 
+    .footer {
+        position: sticky;
+    }
+
 }
 
-/* For screen sizes up too 1440px */
-@media (max-width: 1440px) {
+/* For screen sizes up too 1600px */
+@media (min-width: 1600px) {
     #contact-information {
         margin-bottom: 150px;
+    }
+
+    .quiz-section {
+        margin-left: 570px;
     }
 }
