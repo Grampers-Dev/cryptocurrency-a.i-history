@@ -360,7 +360,6 @@ form input[type="submit"] {
 .footer {
     background: linear-gradient(to right, black, grey);
     padding-top: 5px;
-    height: 140px;
     color: white;
     text-align: center;
     font-family: "Rhodium Libre", sans-serif;
@@ -611,7 +610,6 @@ body {
         height: 380px;
         margin-left: 100px;
         margin-right: 00px;
-        margin-bottom: 100px;
     }
 
     .blockchain {
