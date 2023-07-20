@@ -857,4 +857,8 @@ body {
     .quiz-section {
         margin-left: 570px;
     }
+
+    .footer {
+        position: sticky;
+    }
 }
