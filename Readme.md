@@ -31,19 +31,23 @@ The website offers the following key features:
 
 The structure of the website is as follows:
 
-- `cryptocurrency-history.html`: The main HTML file that represents the structure of the website.
-- `cryptocurrency-history-stylesheet.css`: The CSS file that defines the styles and layout of the website.
-- `pexels-merlin-lightpainting-14314637.jpg`: An image file used as the hero image on the website.
+- `index.html`: The main HTML file that represents the structure of the website.
+- `history.html`: Html page on the history of cryptocurrency.
+- `signup.html`: Signup page designed to give users a chance to submit feedback.
+- `stylesheet.css`: The CSS file that defines the styles and layout of the website.
+- `index hero image`: An image file used as the hero image on the index.html.
+- `history hero image`: An image file used as the hero image on the history.html.
 
 The website is organized into several sections:
 
 - Header: Contains the website title and navigation menu.
-  ![Nav Bar](header-navbar-crypto-history-1.png)
+  ![Nav Bar](Header navbar.png)
 - Hero Image: Displays an image related to the website's theme.
 - Welcome Message: Introduces the website and its purpose.
 - Key Features: Highlights the key features of the website using a bulleted list.
 - PAHS A.I: Provides information about the AI-powered chatbot and its integration with online resources.
 - Cryptocurrency History Timeline: Presents a timeline of important events and milestones in the history of cryptocurrencies.
+- Signup page: Gives users a way to signup to submit feedback and give suggestions.
 - Contact Information: Provides contact details for users to get in touch with the website's team.
 - Footer: Displays social media links and copyright information.
 
@@ -66,4 +70,5 @@ Stay connected with the Cryptocurrency History website through our social media 
 ## Credits
 
 - Hero Image: The hero image used on the website is credited to Merlin Lightpainting on pexels.
+- Contact information image is credited too Ivana cajina asuyh on Unsplash.
 - Code Inspiration: The code for the social media links was adapted from Code Institute's examples and tutorials.
