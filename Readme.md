@@ -41,7 +41,7 @@ The structure of the website is as follows:
 The website is organized into several sections:
 
 - Header: Contains the website title and navigation menu.
-  ![Nav Bar](Header navbar.png)
+  ![Nav Bar](./assets/Header%20navbar.png)
 - Hero Image: Displays an image related to the website's theme.
 - Welcome Message: Introduces the website and its purpose.
 - Key Features: Highlights the key features of the website using a bulleted list.
