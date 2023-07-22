@@ -48,6 +48,7 @@ The website is organized into several sections:
 - Key Features: Highlights the key features of the website using a bulleted list.
   ![Key features](./assets/Key%20features.png)
 - PAHS A.I: Provides information about the AI-powered chatbot and its integration with online resources.
+  ![PAHS A.I.](./assets/PAHS%20A.I.png)
 - Cryptocurrency History Timeline: Presents a timeline of important events and milestones in the history of cryptocurrencies.
 - Signup page: Gives users a way to signup to submit feedback and give suggestions.
 - Contact Information: Provides contact details for users to get in touch with the website's team.
