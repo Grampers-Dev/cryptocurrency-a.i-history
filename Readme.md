@@ -44,6 +44,7 @@ The website is organized into several sections:
   ![Nav Bar](./assets/Header%20navbar.png)
 - Hero Image: Displays an image related to the website's theme.
 - Welcome Message: Introduces the website and its purpose.
+  ![Welcome message](./assets/Welcome%20message.png)
 - Key Features: Highlights the key features of the website using a bulleted list.
 - PAHS A.I: Provides information about the AI-powered chatbot and its integration with online resources.
 - Cryptocurrency History Timeline: Presents a timeline of important events and milestones in the history of cryptocurrencies.
