@@ -38,6 +38,7 @@ The structure of the website is as follows:
 - `stylesheet.css`: The CSS file that defines the styles and layout of the website.
 - `index hero image`: An image file used as the hero image on the index.html.
 - `history hero image`: An image file used as the hero image on the history.html.
+- `contact imformation`: An image file used as the background for the contact information.
 
 The website is organized into several sections:
 
