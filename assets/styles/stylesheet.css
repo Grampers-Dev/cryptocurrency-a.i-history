@@ -457,7 +457,14 @@ body {
     }
 
     #hero-image img {
-        height: 210px;
+        height: 510px;
+    }
+
+    #hero-image {
+        position: relative;
+        margin-top: 0px;
+        overflow: hidden;
+        width: 147%;
     }
 
     #ai-info {
@@ -568,6 +575,7 @@ body {
 
     .footer {
         margin-top: 80px;
+        width: 470px;
     }
 
 
@@ -698,13 +706,13 @@ body {
 
     .footer {
         margin-top: 50px;
-        width: 843px;
+        width: 768px;
     }
 
 }
 
-/* for screens larger then 1024px wide */
-@media (min-width: 1024px) {
+/* for screens larger then 1280px wide */
+@media (min-width: 1280px) {
     #header h1 {
         margin-right: 400px;
         margin-left: 20px;
@@ -852,7 +860,7 @@ body {
     }
 
     .footer {
-        width: 1124px;
+        width: 1280px;
     }
 
 }
