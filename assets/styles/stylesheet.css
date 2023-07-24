@@ -568,8 +568,6 @@ body {
 
     .footer {
         margin-top: 80px;
-        height: 120px;
-        width: 465px;
     }
 
 
@@ -646,6 +644,10 @@ body {
         font-size: 10px;
     }
 
+    #contact-information {
+        height: 180px;
+    }
+
     .quiz-section {
         margin-left: 250px;
     }
@@ -691,10 +693,12 @@ body {
 
     .social-networks {
         display: block;
+        margin-top: 40px;
     }
 
     .footer {
         margin-top: 50px;
+        width: 843px;
     }
 
 }
@@ -702,7 +706,8 @@ body {
 /* for screens larger then 1024px wide */
 @media (min-width: 1024px) {
     #header h1 {
-        margin-right: 600px;
+        margin-right: 400px;
+        margin-left: 20px;
         font-size: 20px;
     }
 
@@ -769,12 +774,12 @@ body {
     .blockchain {
         margin-bottom: 10px;
         height: 290px;
+        display: contents;
     }
 
     .blockchain2 {
-        padding-top: 140px;
-        padding-bottom: 120px;
-        margin-bottom: 10px;
+        height: 550px;
+        display: contents;
     }
 
     .blockchain ul li {
@@ -842,8 +847,12 @@ body {
         display: block;
     }
 
+    #contact-information {
+        height: 190px;
+    }
+
     .footer {
-        position: sticky;
+        width: 1124px;
     }
 
 }
@@ -860,5 +869,18 @@ body {
 
     .footer {
         position: sticky;
+        width: 1600px;
+    }
+
+    div#header {
+        width: 100%;
+    }
+
+    section#contact-section {
+        width: 100%;
+    }
+
+    .timeline {
+        width: 1000px;
     }
 }
