@@ -546,12 +546,13 @@ body {
     }
 
     .timeline-content {
-        width: 0%;
+        width: 80%;
         margin-left: 0px;
     }
 
     .quiz-section {
-        margin-left: 10px;
+        margin-left: 50px;
+        width: 237px;
     }
 
     form label,
@@ -559,6 +560,7 @@ body {
     form input[type="email"],
     form input[type="tel"],
     form input[type="submit"] {
+        width: 100px;
         margin-bottom: 10px;
         border-radius: 20px;
         color: orange;
