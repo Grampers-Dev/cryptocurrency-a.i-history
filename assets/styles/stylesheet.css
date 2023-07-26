@@ -529,7 +529,9 @@ body {
 
     #signup-btn {
         color: coral;
+        background-color: orange;
         text-align: center;
+        color: white;
     }
 
     h2 {
@@ -795,7 +797,7 @@ body {
     form input[type="email"],
     form input[type="tel"],
     form input[type="submit"] {
-        width: 90px;
+        width: 180px;
         color: orange;
         font-size: larger;
         margin-left: 0px;
