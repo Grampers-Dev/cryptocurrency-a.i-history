@@ -551,7 +551,7 @@ body {
     }
 
     .quiz-section {
-        margin-left: 50px;
+        margin-left: 35px;
         width: 237px;
     }
 
@@ -700,6 +700,17 @@ body {
         width: 400px;
     }
 
+    form label,
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"],
+    form input[type="submit"] {
+        margin-bottom: 10px;
+        border-radius: 20px;
+        color: orange;
+        width: 60px;
+    }
+
     #header.grid_12 {
         font-size: 12px;
         padding-top: 10px;
@@ -784,10 +795,10 @@ body {
     form input[type="email"],
     form input[type="tel"],
     form input[type="submit"] {
-        width: 180px;
-        color: white;
+        width: 90px;
+        color: orange;
         font-size: larger;
-        margin-left: 30px;
+        margin-left: 0px;
     }
 
 
@@ -831,7 +842,7 @@ body {
     }
 
     .quiz-section {
-        margin-left: 350px;
+        margin-left: 500px;
     }
 
     h2 {
@@ -884,7 +895,7 @@ body {
     }
 
     .quiz-section {
-        margin-left: 570px;
+        margin-left: 650px;
     }
 
     .footer {
