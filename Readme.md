@@ -54,9 +54,11 @@ The website is organized into several sections:
 - Cryptocurrency History Timeline: Presents a timeline of important events and milestones in the history of cryptocurrencies.
   ![History page](./assets/History%20page%20image.png)
 - Signup page: Gives users a way to signup to submit feedback and give suggestions.
-- ![Signup form](./assets/Signup%20form.jpg)
+  ![Signup form](./assets/Signup%20form.jpg)
 - Contact Information: Provides contact details for users to get in touch with the website's team.
+- ![Contact information](./assets/Contact%20information.jpg)
 - Footer: Displays social media links and copyright information.
+  ![Footer image](./assets/Footer%20image.jpg)
 
 ## Contact Information
 
