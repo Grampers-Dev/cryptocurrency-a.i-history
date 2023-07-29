@@ -78,7 +78,16 @@ Stay connected with the Cryptocurrency History website through our social media 
 
 # Testing
 
-- In testing this website I ran into issues with media queries and redundent code conflicting in how I wanted the pages too look. In hindsight I bite off more then I can chew given my time sechdule. Going forward I'll remember less is more and focus on cleaner code to maintain easier readabillity for other devs. My css code going forward will use better groupings with correct use of id and class elements for better structure this would be the main reason my code is so long, my understading of this has greatly improved and I will focus on better structure in my future projects.
+- In testing this website I ran into issues with media queries and redundent code conflicting in how I wanted the pages too look. Going forward I'll remember less is more and focus on cleaner code to maintain easier readabillity for other devs. My css code going forward will use better groupings with correct use of id and class elements for better structure this would be the main reason my code is so long, my understading of this has greatly improved and I will focus on better structure in my future projects.
+
+## Bug fixes
+
+- Through development I changed media queries often to respond as they should, I removed trailing spaces in meta tags when they weren't at first seen, I removed elements from my html code to pass vlaidation and used more approiate heading classes.
+- Using dev tools my main issues were not understanding the responsiveness screen sizes as when I viewed on my laptop changes I was making did not match, I now see that the error I was making was due to viewing it in a zoomed mode and when I referenced the changes with the responsive website viewer ui.dev it all became clearer for me.
+
+## Lighthouse report
+
+-[Lighthouse report](./assets/images/)
 
 ## Validation
 
