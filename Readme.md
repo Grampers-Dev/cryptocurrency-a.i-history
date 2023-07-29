@@ -17,7 +17,7 @@ This is the README file for the Cryptocurrency History website. The website prov
 
 The Cryptocurrency History website aims to provide users with a comprehensive understanding of the history of cryptocurrencies and their impact on the world of finance and technology. It utilizes advanced technologies such as artificial intelligence and predictive analytics to offer an innovative and personalized experience.
 
-![Responsiveness](./assets/Responsiveness%20image%20of%20all%20pages.jpg)
+![Responsiveness](./assets/images/Responsiveness%20image%20of%20all%20pages.jpg)
 
 ## Key Features
 
