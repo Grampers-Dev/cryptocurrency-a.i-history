@@ -76,6 +76,13 @@ Stay connected with the Cryptocurrency History website through our social media 
 - [YouTube](https://www.youtube.com/yourwebsite)
 - [Instagram](https://www.instagram.com/yourwebsite)
 
+## Validation
+
+- I can confirm that all pages have passed validation through validator.w3.org
+- [validator.w3.org](https://www.validator.w3.org)
+- I can confirm that my css code has passed validation through jigsaw.w3.org
+- [jigsaw.w3.org](https://www.jigsaw.w3.org)
+
 ## Credits
 
 - Hero Image: The hero image used on the website is credited to Merlin Lightpainting on pexels.
