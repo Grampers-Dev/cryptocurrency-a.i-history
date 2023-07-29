@@ -76,6 +76,10 @@ Stay connected with the Cryptocurrency History website through our social media 
 - [YouTube](https://www.youtube.com/yourwebsite)
 - [Instagram](https://www.instagram.com/yourwebsite)
 
+# Testing
+
+- In testing this website I ran into issues with media queries and redundent code conflicting in how I wanted the pages too look. In hindsight I bite off more then I can chew given my time sechdule. Going forward I'll remember less is more and focus on cleaner code to maintain easier readabillity for other devs. My css code going forward will use better groupings with correct use of id and class elements for better structure this would be the main reason my code is so long, my understading of this has greatly improved and I will focus on better structure in my future projects.
+
 ## Validation
 
 - I can confirm that all pages have passed validation through validator.w3.org
