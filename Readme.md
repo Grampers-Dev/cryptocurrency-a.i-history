@@ -52,7 +52,7 @@ The website is organized into several sections:
 - PAHS A.I: Provides information about the AI-powered chatbot and its integration with online resources.
   ![PAHS A.I.](./assets/PAHS%20A.I.png)
 - Cryptocurrency History Timeline: Presents a timeline of important events and milestones in the history of cryptocurrencies.
-  ![History page](./assets/History%20page%20image.png)
+  ![History page](./assets/History%20page%20image%20fix.png)
 - Signup page: Gives users a way to signup to submit feedback and give suggestions.
   ![Signup form](./assets/Signup%20form.jpg)
 - Contact Information: Provides contact details for users to get in touch with the website's team.
