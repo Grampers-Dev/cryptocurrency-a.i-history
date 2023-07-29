@@ -43,22 +43,22 @@ The structure of the website is as follows:
 The website is organized into several sections:
 
 - Header: Contains the website title and navigation menu.
-  ![Nav Bar](./assets/Header%20navbar.png)
+  ![Nav Bar](./assets/images/Header%20navbar.png)
 - Hero Image: Displays an image related to the website's theme.
 - Welcome Message: Introduces the website and its purpose.
-  ![Welcome message](./assets/Welcome%20message.png)
+  ![Welcome message](./assets/images/Welcome%20message%20fix.png)
 - Key Features: Highlights the key features of the website using a bulleted list.
-  ![Key features](./assets/Key%20features.png)
+  ![Key features](./assets/images/Key%20features.png)
 - PAHS A.I: Provides information about the AI-powered chatbot and its integration with online resources.
-  ![PAHS A.I.](./assets/PAHS%20A.I.png)
+  ![PAHS A.I.](./assets/images/PAHS%20A.I.png)
 - Cryptocurrency History Timeline: Presents a timeline of important events and milestones in the history of cryptocurrencies.
-  ![History page](./assets/History%20page%20image%20fix.png)
+  ![History page](./assets/images/History%20page%20image%20fix.png)
 - Signup page: Gives users a way to signup to submit feedback and give suggestions.
-  ![Signup form](./assets/Signup%20form.jpg)
+  ![Signup form](./assets/images/Signup%20form.jpg)
 - Contact Information: Provides contact details for users to get in touch with the website's team.
-- ![Contact information](./assets/Contact%20information.jpg)
+- ![Contact information](./assets/images/Contact%20information.jpg)
 - Footer: Displays social media links and copyright information.
-  ![Footer image](./assets/Footer%20image.jpg)
+  ![Footer image](./assets/images/Footer%20image.jpg)
 
 ## Contact Information
 
