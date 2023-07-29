@@ -87,7 +87,7 @@ Stay connected with the Cryptocurrency History website through our social media 
 
 ## Lighthouse report
 
--[Lighthouse report](./assets/images/lighthouse%20report.jpg)
+![Lighthouse report](./assets/images/lighthouse%20report.jpg)
 
 ## Validation
 
