@@ -782,7 +782,7 @@ body {
     form input[type="email"],
     form input[type="tel"],
     form input[type="submit"] {
-        width: 100px;
+        width: 177px;
         margin-bottom: 10px;
         border-radius: 20px;
         color: orange;
