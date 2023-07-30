@@ -764,7 +764,6 @@ body {
         float: inherit;
     }
 
-
     #ai-info p {
         bottom: 200px;
         right: 75px;
@@ -782,7 +781,7 @@ body {
     form input[type="email"],
     form input[type="tel"],
     form input[type="submit"] {
-        width: 177px;
+        width: 180px;
         margin-bottom: 10px;
         border-radius: 20px;
         color: orange;
