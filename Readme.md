@@ -96,6 +96,10 @@ Stay connected with the Cryptocurrency History website through our social media 
 - I can confirm that my css code has passed validation through jigsaw.w3.org
 - [jigsaw.w3.org](https://www.jigsaw.w3.org)
 
+# Deployment
+- The site is deployed on GitHub pages.
+- The live link is here [Github](https://grampers-dev.github.io/cryptocurreny-a.i-history/)
+
 ## Credits
 
 - Hero Image: The hero image used on the website is credited to Merlin Lightpainting on pexels.
