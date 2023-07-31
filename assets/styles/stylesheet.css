@@ -129,14 +129,10 @@ i {
 
 /* AI Info Section */
 #ai-info {
-    bottom: 300px;
-    right: 100px;
     box-shadow: 5px 5px 20px grey;
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 20px;
     border: 3px solid black;
     border-radius: 30px;
-    max-width: 350px;
 }
 
 #ai-info h1 {
@@ -298,32 +294,11 @@ ul li {
 }
 
 /* Contact Section */
-.contact {
-    justify-content: center;
-    box-sizing: border-box;
-    align-items: center;
-    margin-bottom: 60px;
-    max-width: max-content;
-}
-
 .contact h2 p {
     text-align: center;
     font-family: "Rhodium Libre", sans-serif;
 }
 
-.contact {
-    background-image: url("assets/styles/ivana-cajina-asuyh-_ZX54-unsplash.webp");
-    display: table-cell;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 2;
-    overflow: visible;
-    backface-visibility: hidden;
-    margin: 40px;
-    top: 90px;
-}
 
 #custom-contact {
     bottom: 400px;
@@ -368,11 +343,6 @@ form input[type="submit"] {
 }
 
 /* Social Networks Section */
-.social-networks {
-    text-align: center;
-    margin-top: 10px;
-    color: whitesmoke;
-}
 
 .social-networks>li {
     display: inline-block;
@@ -396,18 +366,7 @@ body {
 }
 
 #contact-information {
-    background-color: rgba(0, 0, 0, 0);
-    height: 160px;
-    margin-bottom: 50px;
-    margin-right: 70px;
-    margin-top: 10px;
-    box-shadow: 5px 10px 10px grey;
     border-radius: 50px;
-    color: white;
-    margin-left: 90px;
-    text-align: center;
-    position: relative;
-    z-index: 1;
 }
 
 #contact-information {
@@ -415,17 +374,6 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-#contact-information::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.8;
-    border-radius: 50px;
-    z-index: -1;
-}
 
 #contact-information h1 {
     font-size: 24px;
@@ -614,14 +562,6 @@ body {
         height: 210px;
     }
 
-    #ai-info {
-        bottom: 300px;
-        right: 20px;
-        font-size: 7px;
-        float: inherit;
-    }
-
-
     #ai-info p {
         bottom: 200px;
         right: 75px;
@@ -668,9 +608,6 @@ body {
         font-size: 10px;
     }
 
-    #contact-information {
-        height: 180px;
-    }
 
     .quiz-section {
         margin-left: 250px;
@@ -724,10 +661,6 @@ body {
         margin-bottom: 10px;
     }
 
-    .social-networks {
-        display: block;
-        margin-top: 40px;
-    }
 
     .footer {
         margin-top: 50px;
@@ -754,14 +687,6 @@ body {
 
     #hero-image-signup img {
         height: 440px;
-    }
-
-    #ai-info {
-        bottom: 300px;
-        right: 20px;
-        width: 320px;
-        font-size: 7px;
-        float: inherit;
     }
 
     #ai-info p {
@@ -830,9 +755,6 @@ body {
         border-radius: 50%;
     }
 
-    .contact {
-        width: 1500px;
-    }
 
     .contact-information::before {
         font-size: 10px;
@@ -871,13 +793,6 @@ body {
         margin-bottom: 10px;
     }
 
-    .social-networks {
-        display: block;
-    }
-
-    #contact-information {
-        height: 190px;
-    }
 
     .footer {
         width: 1280px;
@@ -887,9 +802,6 @@ body {
 
 /* For screen sizes up too 1600px */
 @media (min-width: 1600px) {
-    #contact-information {
-        margin-bottom: 150px;
-    }
 
     .quiz-section {
         margin-left: 650px;
@@ -900,10 +812,6 @@ body {
     }
 
     div#header {
-        width: 100%;
-    }
-
-    section#contact-section {
         width: 100%;
     }
 
