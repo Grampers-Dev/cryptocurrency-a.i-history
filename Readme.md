@@ -56,7 +56,6 @@ The website is organized into several sections:
 - Signup page: Gives users a way to signup to submit feedback and give suggestions.
   ![Signup form](./assets/images/Signup%20image%20fix.png)
 - Contact Information: Provides contact details for users to get in touch with the website's team.
-- ![Contact information](./assets/images/Contact%20information.jpg)
 - Footer: Displays social media links and copyright information.
   ![Footer image](./assets/images/Footer%20image.jpg)
 
