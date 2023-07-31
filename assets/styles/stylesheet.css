@@ -159,7 +159,6 @@ i {
 /* Blockchain Section */
 .blockchain {
     padding: 20px;
-    height: 350px;
     border-radius: 5px;
     text-align: center;
     font-family: "Rhodium Libre", sans-serif;
@@ -200,12 +199,6 @@ section.blockchain>div {
 }
 
 /* List Styles */
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
 ul li {
     display: inline-block;
     text-align: center;
@@ -336,10 +329,7 @@ form input[type="submit"] {
     color: white;
     text-align: center;
     font-family: "Rhodium Libre", sans-serif;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    z-index: 2;
 }
 
 /* Social Networks Section */
@@ -539,11 +529,6 @@ body {
         width: 470px;
     }
 
-    .footer {
-        margin-top: 85px;
-        width: 320px;
-    }
-
 
 }
 
@@ -572,10 +557,6 @@ body {
         height: 485px;
         margin-left: 100px;
         margin-right: 00px;
-    }
-
-    .blockchain {
-        margin-bottom: 10px;
     }
 
     .blockchain2 {
@@ -662,11 +643,6 @@ body {
     }
 
 
-    .footer {
-        margin-top: 50px;
-        width: 768px;
-    }
-
 }
 
 /* for screens larger then 1280px wide */
@@ -722,12 +698,6 @@ body {
         padding: 30px;
         display: grid;
         margin-left: 180px;
-    }
-
-    .blockchain {
-        margin-bottom: 10px;
-        height: 290px;
-        display: contents;
     }
 
     .blockchain2 {
@@ -793,11 +763,6 @@ body {
         margin-bottom: 10px;
     }
 
-
-    .footer {
-        width: 1280px;
-    }
-
 }
 
 /* For screen sizes up too 1600px */
@@ -805,10 +770,6 @@ body {
 
     .quiz-section {
         margin-left: 650px;
-    }
-
-    .footer {
-        width: 1600px;
     }
 
     div#header {
