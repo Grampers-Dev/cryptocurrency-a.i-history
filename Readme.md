@@ -48,13 +48,13 @@ The website is organized into several sections:
 - Welcome Message: Introduces the website and its purpose.
   ![Welcome message](./assets/images/Welcome%20message%20fix.png)
 - Key Features: Highlights the key features of the website using a bulleted list.
-  ![Key features](./assets/images/Key%20features.png)
+  ![Key features](./assets/images/Key%20features%20fix.png)
 - PAHS A.I: Provides information about the AI-powered chatbot and its integration with online resources.
   ![PAHS A.I.](./assets/images/PAHS%20A.I.png)
 - Cryptocurrency History Timeline: Presents a timeline of important events and milestones in the history of cryptocurrencies.
   ![History page](./assets/images/History%20page%20image%20fix.png)
 - Signup page: Gives users a way to signup to submit feedback and give suggestions.
-  ![Signup form](./assets/images/Signup%20form.jpg)
+  ![Signup form](./assets/images/Signup%20image%20fix.png)
 - Contact Information: Provides contact details for users to get in touch with the website's team.
 - ![Contact information](./assets/images/Contact%20information.jpg)
 - Footer: Displays social media links and copyright information.
